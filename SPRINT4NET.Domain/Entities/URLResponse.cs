@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SPRINT4NET.SPRINT4NET.Domain.Entities
 {
-    internal class URLResponse
+    public class URLResponse
     {
+        public string Id { get; set; }
+        public string Status { get; set; }
+        public Dictionary<string, string> Resultados { get; set; }
     }
 }

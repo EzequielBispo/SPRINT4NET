@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SPRINT4NET.Domain.Entities
 {
-    internal class AutenticacaoResponse
+    public class AutenticacaoResponse
     {
+        public String Token { get; set; }
+        public DateTime Expiration {  get; set; }
+
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SPRINT4NET.SPRINT4NET.Domain.Entities
 {
-    internal class URLAnalise
+    public class URLAnalise
     {
+        public string Url { get; set; }
     }
 }
