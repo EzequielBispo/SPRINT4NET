@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SPRINT4NET.Domain.Entities
 {
-    public class CredenciaisUsuario
+    public class CredencialEntity
     {
         public string Usuario { get; set; }
-        public string Senha { get; set;
+        public string Senha { get; set; }
     }
 }

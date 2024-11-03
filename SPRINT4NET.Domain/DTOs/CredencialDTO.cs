@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SPRINT4NET.SPRINT4NET.Application.DTOs
+namespace SPRINT4NET.Domain.DTOs
 {
     public class CredencialDTO
     {
         public string Usuario { get; set; }
         public string Senha { get; set; }
     }
+}
