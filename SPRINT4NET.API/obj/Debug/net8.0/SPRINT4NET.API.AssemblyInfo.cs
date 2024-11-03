@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SPRINT4NET.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f94a6eb04372236ea5bf0eb5e2a2d4f3fd5d60d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SPRINT4NET.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SPRINT4NET.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
