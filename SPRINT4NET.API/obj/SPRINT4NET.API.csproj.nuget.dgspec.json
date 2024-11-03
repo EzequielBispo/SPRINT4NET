@@ -32,8 +32,8 @@
               "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Application\\SPRINT4NET.Application.csproj": {
                 "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Application\\SPRINT4NET.Application.csproj"
               },
-              "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj": {
-                "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj"
+              "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Infrastructure\\SPRINT4NET.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Infrastructure\\SPRINT4NET.Infrastructure.csproj"
               }
             }
           }
@@ -53,9 +53,29 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -103,9 +123,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj": {
-                "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj"
-              },
               "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Domain\\SPRINT4NET.Domain.csproj": {
                 "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Domain\\SPRINT4NET.Domain.csproj"
               }
@@ -126,71 +143,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj",
-        "projectName": "SPRINT4NET",
-        "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.csproj",
-        "packagesPath": "C:\\Users\\EzequielBispo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\EzequielBispo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Core": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[2.2.5, )"
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -254,6 +218,86 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Infrastructure\\SPRINT4NET.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Infrastructure\\SPRINT4NET.Infrastructure.csproj",
+        "projectName": "SPRINT4NET.Infrastructure",
+        "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Infrastructure\\SPRINT4NET.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\EzequielBispo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EzequielBispo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Application\\SPRINT4NET.Application.csproj": {
+                "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Application\\SPRINT4NET.Application.csproj"
+              },
+              "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Domain\\SPRINT4NET.Domain.csproj": {
+                "projectPath": "C:\\Users\\EzequielBispo\\Workspace\\SPRINT4NET\\SPRINT4NET.Domain\\SPRINT4NET.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

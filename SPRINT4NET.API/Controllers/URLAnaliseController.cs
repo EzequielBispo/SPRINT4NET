@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using SPRINT4NET.Application;
 using SPRINT4NET.Application.Services;
 using SPRINT4NET.Domain.DTOs;
 using SPRINT4NET.Application.Interfaces;
