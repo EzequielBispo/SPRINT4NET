@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Internal;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SPRINT4NET.Application.Interfaces;
+using SPRINT4NET.Application.Services;
 using SPRINT4NET.Infrastructure.Data;
 using SPRINT4NET.Infrastructure.Repositories;
 
@@ -23,12 +23,16 @@ namespace SPRINT4NET.API
         // Método chamado pelo runtime para adicionar serviços à aplicação.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+            services.AddHttpClient();
             services.AddControllers();
             // Adicione outras configurações, como serviços de autenticação e dependências
             services.AddSwaggerGen();
             services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IURLAnaliseRepository, URLAnaliseRepository>();
+            services.AddScoped<IURLAnaliseService, URlAnaliseService>();
+
             // Outras configurações de serviços
         }
 
