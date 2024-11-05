@@ -2,7 +2,7 @@
 
 A API faz requisições de análise de URL ao VirusTotal, possui um classificador de URL's baseado em Machine Learning que classifica a criticidade do site informado.
 
-## Endpoint
+## Swagger Endpoints
 
 ```url
 http://localhost:5000/swagger
