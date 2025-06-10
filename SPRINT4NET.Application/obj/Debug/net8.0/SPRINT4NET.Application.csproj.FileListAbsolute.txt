@@ -1,0 +1,16 @@
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/bin/Debug/net8.0/SPRINT4NET.Application.deps.json
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/bin/Debug/net8.0/SPRINT4NET.Application.dll
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/bin/Debug/net8.0/SPRINT4NET.Application.pdb
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/bin/Debug/net8.0/SPRINT4NET.Domain.dll
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/bin/Debug/net8.0/SPRINT4NET.Domain.pdb
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.csproj.AssemblyReference.cache
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.AssemblyInfoInputs.cache
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.AssemblyInfo.cs
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.csproj.CoreCompileInputs.cache
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.sourcelink.json
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4N.03FE915A.Up2Date
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.dll
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/refint/SPRINT4NET.Application.dll
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/SPRINT4NET.Application.pdb
+/Users/bxspo/Workspace/SPRINT4NET/SPRINT4NET.Application/obj/Debug/net8.0/ref/SPRINT4NET.Application.dll

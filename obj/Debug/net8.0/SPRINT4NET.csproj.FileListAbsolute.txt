@@ -1,0 +1,6 @@
+/Users/bxspo/Workspace/SPRINT4NET/obj/Debug/net8.0/SPRINT4NET.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bxspo/Workspace/SPRINT4NET/obj/Debug/net8.0/SPRINT4NET.AssemblyInfoInputs.cache
+/Users/bxspo/Workspace/SPRINT4NET/obj/Debug/net8.0/SPRINT4NET.AssemblyInfo.cs
+/Users/bxspo/Workspace/SPRINT4NET/obj/Debug/net8.0/SPRINT4NET.csproj.CoreCompileInputs.cache
+/Users/bxspo/Workspace/SPRINT4NET/obj/Debug/net8.0/SPRINT4NET.sourcelink.json
+/Users/bxspo/Workspace/SPRINT4NET/obj/Debug/net8.0/SPRINT4NET.csproj.AssemblyReference.cache
